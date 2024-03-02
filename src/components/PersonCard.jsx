@@ -12,7 +12,11 @@ function PersonCard({ description, image, doing }) {
           </p>
         </div>
         <div className="w-[50%]">
-          <Image src={image} className="w-[100%] rounded-xl" />
+          <Image
+            src={image}
+            className="w-full h-full rounded-xl"
+            style={{ objectFit: 'cover', objectPosition: 'center center' }}
+          />
         </div>
       </div>
     </div>

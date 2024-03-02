@@ -5,8 +5,7 @@ import NavBar from "./NavBar";
 function Header() {
   return (
     <div
-      className={`${styles.background} w-[99%] absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 h-[94%] rounded-[20px] bg-cover bg-center bg-no-repeat`}
-    >
+      className={`${styles.background} w-[99%] absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 h-[94%] rounded-[20px] bg-cover bg-center bg-no-repeat`}>
       <div className="w-[95%] mx-auto mt-8 flex flex-row justify-between">
         <NavBar></NavBar>
         <div className="w-[47%]">
@@ -14,12 +13,6 @@ function Header() {
             <span className="text-7xl leading-tight">
               Your Personal Music Classifier with <br /> Machine Learning
             </span>
-            {/* 
-            <span className="font-light text-lg inline-block w-[40%] ml-10">
-              SonOro is an app that uses machine learning algorithms to classify
-              music by genre. It is a web app that is built with Next.js and
-              Tailwind CSS.
-            </span> */}
           </h1>
         </div>
         <div className=" flex flex-row">
